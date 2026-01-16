@@ -3,8 +3,8 @@ global:
   evaluation_interval: 5s
 
 
-#rule_files:
-#  - alert-rules.yml
+rule_files:
+  - alert-rules.yml
 
 scrape_configs:
   - job_name: "spring"
